@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <ul class="topnav">
+        <li><a href="home.html">Home</a></li>
+        <li class="right"><a href="berita.html">Pengenalan Berita</a></li>
+        <li class="right"><a href="Author.html">Profile Pengarang</a></li>
+    </ul>
+
+    <br>
+    <br>
+    <br>
+<div class="wrapper">
+    
+    <div class="container">
+
+        <div id="title">Selamat Datang ke Game Slot</div>
+        <div id="isi">
+
+            <div class="register-container">
+                <h1 class="label">Register</h1>
+                
+                <form class="register_form" action="index.html" method="post" name="form" onsubmit="return validated()">
+
+                    <div class="font font2">Nama Lengkap</div>
+                    <input autocomplete="off" type="text" name="namaLengkap">
+                    
+                    
+                    <div class="font font2">Email </div>
+                    <input autocomplete="off" type="text" name="email">
+
+
+                    <div class="font font-2">Nama Bank
+                        <select name="bank" id="select" class="font ">
+                            <option value="bca">Bank BCA</option>
+                            <option value="bni">Bank BNI</option>
+                            <option value="bri">Bank BRI</option>
+                            <option value="btn">Bank BTN</option>
+                            <option value="btn">Bank Mandiri</option>
+                            <option value="btn">Bank Jago</option>
+                        </select>
+
+                    </div>
+
+
+                    <div class="font font2">Nomor Rekening</div>
+                    <input type="text" name="nomorRekening">
+                    
+                    
+                    <div class="font font2">Password</div>
+                    <input type="password" name="password">
+                    
+                    <div class="font font2">Konfirmasi Password</div>
+                    <input type="password" name="password2">
+
+                    <button type="submit">Sign Up</button>
+
+                </form>
+            </div>	
+            
+            
+        </div>
+        
+    </div>
+</div>
+
+<footer>
+    Powered by Annas Sigit Adityo Mulyo, Randy Setiawan, Abdan Maulana Halim, Achmad Fakhri Irawan, Edrick Devano, Okky Pratama
+</footer>
+    <script src="../js/JQuery.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul class="topnav">
+        <li><a href="">Home</a></li>
+        <li class="right"><a href="berita.html">Pengenalan Berita</a></li>
+        <li class="right"><a href="Author.html">Profile Pengarang</a></li>
+        <li class="dropdown right"><a class="dropbtn" href="javascript:void(0)">See all Games</a>
+        
+        <div class="dropdown-content">
+            <a href="togel.html"> Togel</a>
+            <a href="gameslot.html">Slot</a>
+        </div>
+          </li>
+      </ul>
+    
+
+    <div class="container">
+        <label for="">Masukan nomor yang ingin di pilih:</label>
+        <input type="text" size="26" placeholder= "Masukan 4 Angka">
+        <br>
+        <br>
+        <label for="">Masukan nominal yang ingin di taruh: Rp.</label>
+        <input type="text">
+    
+
+    <br>
+    <br>
+ 
+
+    <div class="btn">
+    <button onclick="acak()" id="acak">Acak nomor</button>
+    </div>
+
+    <p id="hasil">Hasil</p>
+
+    </div>
+    <script>
+        function acak() {
+            document.getElementById("hasil").innerHTML = Math.floor((Math.random() * 10000) + 2);
+        } 
+
+    </script>
+</body>
+</html>
